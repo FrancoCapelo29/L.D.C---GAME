@@ -2,10 +2,7 @@
     document.getElementById("musica2").play();
 }*/
 
-let direction = window.location.href;
-
-
-let contador = 0;
+/*let contador = 0;
 
 function siguiente() {
   contador++;
@@ -30,8 +27,6 @@ function siguiente() {
       document.getElementById('parrafo').style.display = 'none';
       document.getElementById('opciones').style.display = 'block';
       document.getElementById('siguiente').style.display = 'none'; 
-    case 7:
-      document.getElementById('parrafo').innerHTML = 'Lo que alguna vez fuiste ya no existe para utilizarlo como motor, aun así dudas en seguir caminando sabiendo que sería inutil, sin embargo sigues caminando ya que es lo único que puedes hacer, porque sabes que debe haber algo más allá de toda la nada que te rodea.';
     break;
   }
 }
@@ -48,6 +43,85 @@ function opcionB() {
   document.getElementById('parrafo').innerHTML = 'Sigues esperando un rumbo al que ir por toda la eternidad.'
   document.getElementById('opciones').style.display = 'none';
   document.getElementById('siguiente').style.display = 'block';  
+} */
 
-  window.location.href = direction + '/Game-Over.html';
-} 
+var contador = 0;
+var parrafos = [
+  'Aquí va el texto del primer párrafo.',
+  'Aquí va el texto del segundo párrafo.',
+  'Aquí va el texto del tercer párrafo.'
+];
+
+var parrafosOpcionA = [
+  'Al seguir adelante, sin necesidad de esperar alguna ayuda, es el primer paso para encontrar tu salvación, o la condena.',
+  'Aquí va el texto de otro párrafo agregado en la opción A.'
+];
+
+var parrafosOpcionB = [
+  'Sigues esperando un rumbo al que ir por toda la eternidad.',
+  'Aquí va el texto de otro párrafo agregado en la opción B.',
+  'Aquí va el texto de un tercer párrafo agregado en la opción B.'
+];
+
+function siguiente() {
+  if (contador < parrafos.length) {
+    document.getElementById('parrafo').innerHTML = parrafos[contador];
+    contador++;
+
+    if (contador === parrafos.length) {
+      document.getElementById('siguiente').style.display = 'none';
+      document.getElementById('opciones').style.display = 'block';
+
+      if (!document.getElementById('boton-final').classList.contains('oculto')) {
+        document.getElementById('boton-final').style.display = 'block';
+      }
+    } else {
+      document.getElementById('siguiente').style.display = 'block';
+      document.getElementById('boton-final').style.display = 'none';
+    }
+  }
+}
+
+function opcionA() {
+  var botonesOpciones = document.getElementsByClassName('opcion');
+  for (var i = 0; i < botonesOpciones.length; i++) {
+    botonesOpciones[i].style.display = 'none';
+  }
+
+  parrafos = parrafosOpcionA.slice();
+
+  contador = 0;
+
+  siguiente();
+
+  document.getElementById('opciones').style.display = 'none';
+  document.getElementById('siguiente').style.display = 'block';
+  document.getElementById('boton-final').style.display = 'none';
+  document.getElementById('boton-final').onclick = function() {
+    window.location.href = 'otra_pagina_A.html';
+  };
+}
+
+function opcionB() {
+  var botonesOpciones = document.getElementsByClassName('opcion');
+  for (var i = 0; i < botonesOpciones.length; i++) {
+    botonesOpciones[i].style.display = 'none';
+  }
+
+  parrafos = parrafosOpcionB.slice();
+
+  contador = 0;
+
+  siguiente();
+
+  document.getElementById('opciones').style.display = 'none';
+  document.getElementById('siguiente').style.display = 'block';
+  document.getElementById('boton-final').style.display = 'none';
+  document.getElementById('boton-final').onclick = function() {
+    window.location.href = 'otra_pagina_B.html';
+  };
+}
+
+function irAOtraPagina() {
+  window.location.href = 'otra_pagina.html';
+}
