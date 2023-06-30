@@ -13,13 +13,36 @@
         I. INFIERNO
     </h1>
     <div class="iconos">
-        <i  class="fa-solid fa-heart fa-beat" style="color: #fd2112;" ></i>
+        
     </div>
 
-    <h1 class="preg"><dir> EJEMPLO: Dante se encontraba cruzando el primer circulo y llego a una parte donde </dir>
-        tenia que elejir dos caminos; ayuda a cruzar a Dante el lugar</h1>
-    <button type="button" class="left">Derecha</button>
-    <button type="button" class="rigth">Izquierda</button>
+    <div id="menu">
+        <h2>Menú</h2>
+        <div id="objetos">
+          <h3>Objetos</h3>
+          <ul>
+            <li>Objeto 1</li>
+            <li>Objeto 2</li>
+            <li>Objeto 3</li>
+          </ul>
+        </div>
+        <div id="vida">
+          <h3>Vida</h3>
+          <i  class="fa-solid fa-heart fa-beat" style="color: #fd2112;"><p>100%</p></i>
+        </div>
+      </div>
+
+    <div id="contenedor">
+        <p id="parrafo">Caminar por este sitio es todo lo que sabes hacer, tus recuerdos no son más que fragmentos dispersos, lo que alguna vez fuistes ya no existe y los únicos recuerdos que logras recordar es caminar por un mar de llamas que devora todo lo que está a su paso.</p>
+        <button id="siguiente" onclick="siguiente()">Siguiente</button>
+      </div>
+
+      <div id="opciones" style="display: none;">
+        <button onclick="opcionA()">Opción A</button>
+        <button onclick="opcionB()">Opción B</button>
+      </div>
+    
+      <p id="resultado" style="display: none;"></p>
     <!--<audio id="musica2" autoplay >
         <source src="musica/The Divine Comedy I. - The Inferno.mp3" type="audio/mpeg">
         <source src="musica/The Divine Comedy I. - The Inferno.ogg" type="audio/ogg">
