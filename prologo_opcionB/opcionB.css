@@ -50,7 +50,6 @@ body{
 #siguiente{
     position: absolute;
     position: fixed; top: 700px;
-    position: fixed; left: 755px;
     display: inline-block;
     padding: 15px 30px;
     color: #fff8f8;
@@ -61,6 +60,9 @@ body{
     transition: 0.2s;
     background: #db2828;
     box-shadow: 0 0 10px #db2828, 0 0 40px #db2828, 0 0 80px #db2828;
+    left: 50%;
+    bottom: 10;
+    transform: translateX(-50%);
 }
 
 #parrafo {
@@ -82,10 +84,9 @@ body{
     position: absolute;
   }
 
-#opciones{
+  #opciones{
     position: absolute;
     position: fixed; top: 700px;
-    position: fixed; left: 755px;
     display: inline-block;
     padding: 15px 30px;
     color: #fff8f8;
@@ -95,6 +96,9 @@ body{
     overflow: hidden;
     transition: 0.2s;
     background-color: #000; 
+    left: 50%;
+    bottom: 10;
+    transform: translateX(-50%);
 }
  
 .opcionA{
@@ -119,4 +123,30 @@ body{
     overflow: hidden;
     transition: 0.2s;
     background-color: #410000; 
+}
+
+.audio-player {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+  
+  .audio-player audio {
+    margin-right: 10px;
+}
+  
+.audio-player button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }

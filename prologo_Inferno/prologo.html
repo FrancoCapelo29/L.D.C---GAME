@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="prologo.js"></script>
 <link rel="stylesheet" href="prologo.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.3.3/howler.min.js"></script>
 </head>
 <body onclick="PlayAudio()">
   <h1 class="titu">
@@ -40,11 +41,10 @@
 <button class="opcionA" onclick="opcionA()">Avanzar</button>
 <button class="opcionB" onclick="opcionB()">Quedarse</button>
 </div>
-    <!--<audio id="musica2" autoplay >
-        <source src="musica/The Divine Comedy I. - The Inferno.mp3" type="audio/mpeg">
-        <source src="musica/The Divine Comedy I. - The Inferno.ogg" type="audio/ogg">
-        <source src="musica/The Divine Comedy I. - The Inferno.wav" type="audio/wav">
-        Tu navegador no es compatible con el audio, una disculpa 
-    </audio>-->
+
+<div class="audio-player">
+  <audio controls src="../musica/Prologo.mp3"></audio>
+</div>
+
 </body>
 </html>

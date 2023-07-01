@@ -94,3 +94,28 @@ body{
     transition-delay: 0.75s;
 }
 
+.audio-player {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+  
+  .audio-player audio {
+    margin-right: 10px;
+}
+  
+.audio-player button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
