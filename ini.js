@@ -3,5 +3,5 @@ function PlayAudio(){
     document.getElementById("musica1").play();
 }
 function redireccion(){
-    location.href = "primer.html";
+    window.location.href = 'prologo_Inferno/prologo.html';
 }

@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(imagenes/Infierno\ 1.jpeg);
+    background-image: url(../imagenes/Infierno\ 1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -15,6 +15,7 @@ body{
 }
 
 .titu {
+    position: absolute;
     width: auto;
     padding: 20px;
     background-color: #ffffff;
@@ -47,9 +48,9 @@ body{
 }
 
 #siguiente{
-    position: fixed; top: 700px;
-    position: fixed; left: 875px;
     position: absolute;
+    position: fixed; top: 700px;
+    position: fixed; left: 755px;
     display: inline-block;
     padding: 15px 30px;
     color: #fff8f8;
@@ -82,9 +83,9 @@ body{
   }
 
 #opciones{
+    position: absolute;
     position: fixed; top: 700px;
     position: fixed; left: 755px;
-    position: absolute;
     display: inline-block;
     padding: 15px 30px;
     color: #fff8f8;
@@ -95,8 +96,8 @@ body{
     transition: 0.2s;
     background-color: #000; 
 }
-
-#opciones1{
+ 
+.opcionA{
     display: inline-block;
     padding: 15px 30px;
     color: #fff8f8;
@@ -107,32 +108,3 @@ body{
     transition: 0.2s;
     background-color: #410000; 
 }
-
-#opciones2{
-    display: inline-block;
-    padding: 15px 30px;
-    color: #fff8f8;
-    letter-spacing: 4px;
-    text-decoration: none;
-    font-size: 24px;
-    overflow: hidden;
-    transition: 0.2s;
-    background-color: #410000;
-}
-
-#final-boton{
-    display: inline-block;
-    padding: 15px 30px;
-    color: #fff8f8;
-    letter-spacing: 4px;
-    text-decoration: none;
-    font-size: 24px;
-    overflow: hidden;
-    transition: 0.2s;
-    background-color: #410000;
-  }
-  
-.oculto {
-    display: none;
-}
-  
