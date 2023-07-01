@@ -1,6 +1,6 @@
 var contador = 0;
 var parrafos = [
-  'Al dejar de lado las dudas que atormentan tu mente sigues caminando, aunque tú mismo sabes que es falso, siempre tendrás dudas sobre tu existencia, dudas del porque sigues aqui mientras que otros no, pero eso no quiere decir que no puedas seguir avanzando por este camino que has elegido recorrer, la pregunta será, ¿podrás llegar hasta el final?'
+  '¿De que otra forma esperabas que terminara si apenas comienzas, ya estas rindiendote?'
 ];
 
 function siguiente() {
@@ -16,6 +16,6 @@ function siguiente() {
     }
   }
 
-  function opcionA() {
-    window.location.href = '../primer_infierno/primer.html';
+  function opcionB() {
+    window.location.href = '../Game-Over.html';
   }
