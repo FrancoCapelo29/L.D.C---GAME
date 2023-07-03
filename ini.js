@@ -1,7 +1,11 @@
 confirm("¿Estás listo para adentrarte en la oscuridad y enfrentar tu destino?");    
-function PlayAudio(){
-    document.getElementById("musica1").play();
-}
+
+
 function redireccion(){
-    location.href = "primer.html";
+    window.location.href = '0_Infierno/prologo_Inferno/prologo.html';
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    var audioPlayer = document.getElementById("audio-player");
+    audioPlayer.pause();
+});
