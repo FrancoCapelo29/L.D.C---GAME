@@ -1,3 +1,4 @@
+
 body{
     background-image: url(imagenes/Game.jpg);
     background-color: rgb(50, 50, 50);
@@ -15,7 +16,7 @@ body{
     margin: 10px;
     padding: 20px;
     background-color: rgb(20, 19, 19);
-    height: 160px;
+    height: 300px;
     max-width: 900px;
 }
 
@@ -25,12 +26,16 @@ body{
 
 .title{
     font-family: 'Press Start 2P', cursive;
-    font-size: 2.5rem;
-
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+    0 0 25px #fff,
+    0 0 50px #fff,
+    0 0 100px #fff;
 }
 
 .cal{
-    font-size: 3rem;
+    font-size: 5rem;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -46,14 +51,28 @@ body{
 }
 
 .next:hover{
-    background-color: #c7c7f3;
+    background-color: #222228;
     color: #fff;
 }
 .container{
     display: flex;
     align-items: center;
     flex-direction: column;
+
 }
 .btn-over{
+margin-top: 200px;
+}
 
+.next{
+    width: 150%;
+    height: 150%;
+    border-radius: 10px;
+}
+
+.frase{
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    margin-top: 60px;
+    font-size: 1.5rem;
 }
