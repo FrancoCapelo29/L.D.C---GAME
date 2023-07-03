@@ -17,5 +17,5 @@ function siguiente() {
   }
 
   function opcionA() {
-    window.location.href = '../primer_infierno/primer.html';
+    window.location.href = '../../1_Infierno/primer_Infierno/primer.html';
   }

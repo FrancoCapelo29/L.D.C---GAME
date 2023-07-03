@@ -17,5 +17,5 @@ function siguiente() {
   }
 
   function opcionB() {
-    window.location.href = '../Game-Over.html';
+    window.location.href = '../../Game-Over.html';
   }

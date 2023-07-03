@@ -1,6 +1,7 @@
 var contador = 0;
 var parrafos = [
-  '¿De que otra forma esperabas que terminara si apenas comienzas, ya estas rindiendote?'
+  'Caminas por el lugar ignorando todo lo que te rodea, tratando de llegar a la salida de este sitio que ya ha comenzado a agobiarte, después de todo de qué sirve todo si no puedes utilizarlo.',
+  'Ingresas en la cueva que te llevará al siguiente círculo.'
 ];
 
 function siguiente() {

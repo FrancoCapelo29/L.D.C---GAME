@@ -19,5 +19,5 @@ function siguiente() {
   }
 
   function opcionA() {
-    window.location.href = 'documento_a.html';
+    window.location.href = '../Game-Over.html';
   }
