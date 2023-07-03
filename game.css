@@ -1,5 +1,4 @@
-
-body{
+body {
     background-image: url(imagenes/Game.jpg);
     background-color: rgb(50, 50, 50);
     background-blend-mode: soft-light;
@@ -11,7 +10,7 @@ body{
     justify-content: center;
 }
 
-.container-title{
+.container-title {
     display: flex;
     margin: 10px;
     padding: 20px;
@@ -20,28 +19,28 @@ body{
     max-width: 900px;
 }
 
-.form-container{
+.form-container {
     color: #fff;
 }
 
-.title{
+.title {
     font-family: 'Press Start 2P', cursive;
     font-size: 5rem;
     color: #fff;
     text-shadow: 0 0 5px #fff,
-    0 0 25px #fff,
-    0 0 50px #fff,
-    0 0 100px #fff;
+        0 0 25px #fff,
+        0 0 50px #fff,
+        0 0 100px #fff;
 }
 
-.cal{
+.cal {
     font-size: 5rem;
     align-items: center;
     display: flex;
     justify-content: center;
 }
 
-.next{
+.next {
     background-color: #8d0f65;
     box-shadow: 0 5px 7px rgba(0, 0, 0, .1);
     border: #fff;
@@ -50,27 +49,29 @@ body{
 
 }
 
-.next:hover{
+.next:hover {
     background-color: #222228;
     color: #fff;
 }
-.container{
+
+.container {
     display: flex;
     align-items: center;
     flex-direction: column;
 
 }
-.btn-over{
-margin-top: 200px;
+
+.btn-over {
+    margin-top: 200px;
 }
 
-.next{
+.next {
     width: 150%;
     height: 150%;
     border-radius: 10px;
 }
 
-.frase{
+.frase {
     color: #fff;
     font-family: 'Cinzel', serif;
     margin-top: 60px;
