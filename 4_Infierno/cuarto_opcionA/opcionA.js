@@ -18,5 +18,5 @@ function siguiente() {
   }
 
   function opcionA() {
-    window.location.href = 'documento_a.html';
+    window.location.href = '../../5_Infierno_lanza/quinto_Infierno/quinto.html';
   }
