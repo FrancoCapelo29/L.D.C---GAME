@@ -28,9 +28,9 @@ body {
     font-size: 5rem;
     color: #fff;
     text-shadow: 0 0 5px #fff,
-        0 0 25px #fff,
-        0 0 50px #fff,
-        0 0 100px #fff;
+        0 0 25px #e6e6e6,
+        0 0 50px #e6e6e6,
+        0 0 100px #e6e6e6;
 }
 
 .cal {
