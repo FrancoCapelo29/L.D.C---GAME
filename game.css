@@ -41,7 +41,7 @@ body {
 }
 
 .next {
-    background-color: #8d0f65;
+    background-color: #222228;
     box-shadow: 0 5px 7px rgba(0, 0, 0, .1);
     border: #fff;
     cursor: pointer;
@@ -50,7 +50,7 @@ body {
 }
 
 .next:hover {
-    background-color: #222228;
+    background-color: #737373;
     color: #fff;
 }
 

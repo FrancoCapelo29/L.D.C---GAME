@@ -19,13 +19,14 @@ body {
     color: #fff;
     margin: 30px;
     padding: 10px;
-    background-color: rgb(20, 19, 19);
+    /*background-color: rgb(20, 19, 19);*/
     /*text-shadow: 0 0 5px #fff,
     0 0 25px #fff,
     0 0 50px #fff,
     0 0 100px #fff;*/
     border-radius: 5px;
     font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
 
 }
 .btn-neon{
